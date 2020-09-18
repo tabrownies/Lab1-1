@@ -1,0 +1,12 @@
+.container img{
+    width:100%;
+    padding:0 10px 10px 10px;
+}
+.content h1,
+.content p{
+    display:flex;
+    justify-content: center;
+}
+.content p{
+    padding: 0 10px;
+}
