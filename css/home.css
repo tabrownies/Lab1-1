@@ -26,6 +26,10 @@
     justify-content: center;
     
 }
+.home-page-photo{
+    width: 100%;
+}
+/*
 .favorite-photos{
     display:flex;
     flex-direction: row;
@@ -35,17 +39,17 @@
 .favorite-photos img{
     width:750px;
     padding: 2px;
-}
+}*/
 @media only screen and (max-width:1500px){
     .content{
         width:100%;
     }
 }
-@media only screen and (max-width:750px){
+/*@media only screen and (max-width:750px){
     .favorite-photos img{
         width:100%;
     }
-}
+}*/
 @media only screen and (max-width:400px){
     .bio{
         display: flex;
