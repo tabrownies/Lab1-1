@@ -12,6 +12,8 @@
 }
 .bio p{
     font-size:24px;
+    padding:6px;
+    
 }
 .bio-photo{
     width:300px;
@@ -22,7 +24,7 @@
 .content h2{
     display: flex;
     justify-content: center;
-    padding:5px;
+    
 }
 .favorite-photos{
     display:flex;
@@ -51,9 +53,11 @@
         align-items: center;
         flex-direction: column;
     }
-    .bio p{
-        display: flex;
-        justify-content: center;
+    .bio h1{
+        text-align:center;
+    }
+    .content h2{
+        text-align: center;
     }
     .bio-photo{
         float:none;
