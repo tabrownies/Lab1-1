@@ -1,0 +1,40 @@
+.content{
+    width: 100%;
+}
+.content img{
+    float: right;
+    width: 50%;
+    padding:20px;
+}
+.content h1{
+    display:flex;
+    justify-content: center;
+}
+.content p{
+    padding:10px 40px 0 40px;
+    font-size: 20px;
+}
+.content h3{
+    display: flex;
+    justify-content: center;
+}
+.list-group{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.list-group-item{
+    padding-left:30px;
+    padding-right: 30px;
+    border:none;
+    border-left: 1px dashed #ccc;
+    display:flex;
+    align-items: center;
+}
+.list-group-item:first-of-type{
+    margin-left:auto;
+    border-left: none;
+}
+.list-group-item:last-of-type{
+    margin-right:auto;
+}
