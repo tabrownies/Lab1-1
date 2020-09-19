@@ -7,6 +7,10 @@
     display:flex;
     justify-content: center;
 }
+.content h1{
+    margin:10px 0 0 0;
+}
 .content p{
     padding: 0 10px;
+    font-size:20px;
 }
