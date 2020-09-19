@@ -1,0 +1,25 @@
+.content h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.review-list .list-group-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-list .list-group-item h3 {
+    font-size: 40px;
+}
+
+.review-list .list-group-item p {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 400px) {
+    .review-list .list-group-item p {
+        font-size: 30px;
+        margin-left: 40px;
+    }
+}
