@@ -28,6 +28,7 @@
     .list-group{
         flex-direction: row;
         justify-content: space-around;
+        
     }
     .list-group-item{
         padding-left:30px;
@@ -41,6 +42,7 @@
     }
     .list-group-item:last-of-type{
         margin-right:auto;
+        border-right:none;
     }
 }
 @media only screen and (max-width: 800px){
@@ -58,6 +60,8 @@
     .list-group-item{
         border-top: 1px dashed #ccc;
         justify-content: center;
+        border-left: none;
+        border-right:none;
     }
     .list-group-item:first-of-type{
         border-top:none;
